@@ -1,0 +1,23 @@
+{
+  "name": "qadamn1_bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "mongoose": "^8.16.4",
+    "openai": "^5.10.1",
+    "telegraf": "^4.16.3",
+    "telegraf-session-local": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
